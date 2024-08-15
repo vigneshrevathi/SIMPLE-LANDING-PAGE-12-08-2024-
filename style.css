@@ -1,0 +1,260 @@
+.first-section{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-transform: capitalize;
+}
+.first-division{
+    width: 25%;
+    font-size: 30px;
+    color: white;
+    padding-left: 82px;
+    padding-top: 26px;
+    display: flex;
+}
+.second-division{
+    width: 50%;
+    display: flex;
+}
+.navigation{
+    display: flex;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 22px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 80px;
+    
+}
+.third-division{
+    width: 25%;
+    font-size: 22px;
+    color: white;
+    padding-left: 82px;
+    display: flex;
+    padding-top: 26px;
+}
+.content{
+    margin-top: 250px;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+}
+.pro-page{
+    font-size: 32px;
+}
+.website{
+    font-size: 42px;
+}
+.input{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+    
+button{ 
+    padding: 20px;
+    border-radius: 40px;
+    padding-right: 213px;
+    text-transform: capitalize;
+    color: gainsboro;
+}
+.started{
+    display: flex;
+}
+.second-section{
+    height: 100vh;
+    display: flex;
+}
+.text-wrapper{
+    width: 50%;
+}
+#first-division{
+    font-size: 40px;
+    margin-top: 145px;
+    margin-left: 120px;
+    text-transform: capitalize;
+}
+#second-division{
+    display: flex;
+    margin-left: 124px;
+    margin-top: 43px;
+    gap: 50px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+#responsive{
+    border-bottom-style: outset;
+}
+#third-division{
+    margin-top: 65px;
+    margin-left: 120px;
+}
+#heading{
+    text-transform: capitalize;
+    color: darkseagreen;
+}
+#text{
+    color: darkseagreen;
+}
+.paragraph1{
+    color:cadetblue;
+    margin-top: 20px;
+}
+.fourth-division{
+    margin-top: 65px;
+    margin-left: 120px;
+}
+.image{
+    width: 50%;
+    background-image: url(feature-mockup.png);
+    background-position: center;
+    background-size: cover;
+}
+.second-section2{
+    height: 100vh;
+    width: 80%;
+    margin-left: 145px;
+    background-color: lightgray;
+}
+.tagline{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 300px 300px;
+    background-color: aquamarine;
+}
+#division1{
+    grid-row: span 2;
+    background-image: url(team-image1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#division3{
+    grid-row: span 2;
+    background-image: url(team-image3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#division4{
+    grid-row: span 2;
+    background-image: url(team-image2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#division2,#division5,#division6{
+    background-color: white;
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 58px;
+}
+.main-heading{
+    font-size: 35px;
+    color: darkseagreen;
+}
+.role{
+    font-size: 25px;
+    color: cadetblue;
+}
+.details{
+    color: darkseagreen;
+}
+.third-section{
+    margin-top: 350px;
+    height: 100vh;
+    background-color: rgb(246, 239, 239);
+    padding-top: 150px;
+}
+.plan{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.detailed-menu{
+    display: flex;
+    margin-left: 50px;
+}
+#button44{
+    padding: 13px;
+    margin-left: 51px;
+    background-color: green;
+}
+.first-details{
+    font-size: 18px;
+    background-color: white;
+    padding-left: 20px;
+    color: darkseagreen;
+    margin-left: 100px;
+}
+#position{
+    font-size: 40px;
+    border-bottom-style: outset;
+    padding-bottom: 30px;
+}
+.specification{
+    margin-top: 60px;
+    border-bottom-style: outset;
+    padding-bottom: 30px;
+}
+.merge{
+    display: flex;
+    padding-top: 60px;
+}
+.menu-items{
+    display: flex;
+}
+.last-section{
+    height: 80vh;
+    color: darkseagreen;
+}
+.last-division{
+    width: 80%;
+    margin-left: 130px;
+}
+.hello{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.personal-details{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    margin-top: 80px;
+}
+#name{
+    border-bottom-style: outset;
+    width: 40%;
+}
+#address{
+    border-bottom-style: outset;
+    width: 40%;
+}
+#last-button{
+    padding: 15px;
+    padding-left: 44px;
+    padding-right: 34px;
+    background-color: black;
+    color: white;
+}
+#message{
+    border-bottom-style: outset;
+    padding-bottom: 200px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+#copyright{
+    font-size: 18px;
+    margin-top: 70px;
+}
